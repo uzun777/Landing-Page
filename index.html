@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Starbucks landing page</title>
+  </head>
+  <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <div id="header">
+      <a href="index.html">
+        <img
+          id="header-img"
+          src="https://pbs.twimg.com/profile_images/3001407674/8687b5c6bf5880755435f2717b500db0.jpeg"
+          alt="logo"
+        />
+      </a>
+      <nav id="nav-bar">
+        <ul>
+          <li>
+            <a href="#drinks" class="nav-link">Drinks </a>
+          </li>
+          <li>
+            <a href="#drinks" class="nav-link">Food </a>
+          </li>
+          <li>
+            <a href="#video" class="nav-link">Nutrition </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <section id="promo">
+      <div class="item_block">
+        <iframe
+          id="video"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/UEFf0NabWU0"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        >
+        </iframe>
+      </div>
+      <div class="description_block">
+        <h1>Lorem ipsum dolor sit amet.</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe sed
+          dolor porro enim ab iusto at ratione labore ducimus voluptas!
+        </p>
+        <div id="button">
+          <u> <a href="#">Learn More &raquo; </a></u>
+        </div>
+      </div>
+    </section>
+
+    <section id="drinks">
+      <div class="drinks">
+        <img
+          src="https://globalassets.starbucks.com/assets/12be45c393e94b0e934535c905d9d44c.jpg"
+          alt="Iced Coffee"
+        />
+        <div id="text">
+          <a href="#">
+            <h6>Iced Coffee</h6>
+            <span
+              >Lorem ipsum dolor sit amet consectetur adipisicing elit.</span
+            ></a
+          >
+        </div>
+      </div>
+      <div class="drinks">
+        <img
+          src="https://globalassets.starbucks.com/assets/5aa2cac008124e2d9ce5568e35579ae5.jpg"
+          alt="Nitro Cold Brew"
+        />
+        <div id="text">
+          <a href="#">
+            <h6>Nitro Cold Brew</h6>
+            <span
+              >Lorem ipsum dolor sit amet consectetur adipisicing elit.</span
+            >
+          </a>
+        </div>
+      </div>
+      <div class="drinks">
+        <img
+          src="https://globalassets.starbucks.com/assets/9908416e060d4d7b858b19a733c642ce.jpg"
+          alt="Starbucks® Cold Brew Coffee"
+        />
+        <div id="text">
+          <a href="#">
+            <h6>Cold Brew Coffee</h6>
+            <span
+              >Lorem ipsum dolor sit amet consectetur adipisicing elit.</span
+            ></a
+          >
+        </div>
+      </div>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem
+        deleniti tempore doloremque mollitia consequuntur. Et odio ipsam
+        distinctio architecto maiores!
+      </p>
+    </section>
+
+    <section id="email-block">
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <h2>Subscribe to our newsletter</h2>
+        <label for="email"
+          >Email
+          <input
+            type="email"
+            name="email"
+            id="email"
+            target="_blank"
+            placeholder="Enter your email adress"
+            required
+          />
+        </label>
+        <input type="submit" id="submit" value="Subscribe" />
+      </form>
+    </section>
+
+    <footer>
+      <p>Copyright 2019, Original Trombones</p>
+    </footer>
+  </body>
+</html>
